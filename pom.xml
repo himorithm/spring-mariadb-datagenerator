@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.himorithm</groupId>
-	<artifactId>spring-mariadb-datagenrator</artifactId>
+	<artifactId>spring-mariadb-datagenerator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-mariadb-datagenrator</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-mariadb-datagenerator</name>
+	<description>Generate Random Person data for Testing into Maria Database</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -5,12 +5,15 @@ import com.himorithm.data.generator.com.himorithm.data.Customer;
 import com.himorithm.data.generator.com.himorithm.data.Seller;
 import org.springframework.stereotype.Component;
 
+import java.security.SecureRandom;
+import java.util.Locale;
+
 @Component
 public class RandomNameGenerator {
     private final Faker faker;
 
     public RandomNameGenerator() {
-        this.faker = new Faker();
+        this.faker = new Faker(Locale.ENGLISH, new SecureRandom());
     }
 
     public Customer getCustomer(Long id) {
